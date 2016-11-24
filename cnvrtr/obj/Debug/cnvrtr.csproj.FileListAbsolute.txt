@@ -1,0 +1,42 @@
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\bin\Debug\cnvrtr.exe.config
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\bin\Debug\cnvrtr.exe
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\bin\Debug\cnvrtr.pdb
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csprojResolveAssemblyReference.cache
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\MainWindow.g.cs
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\App.g.cs
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.cache
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.lref
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\MainWindow.baml
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.g.resources
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.Properties.Resources.resources
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csproj.GenerateResource.Cache
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.exe
+D:\БГУИР\2 курс 1 семестр\ЯП\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.pdb
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\bin\Debug\cnvrtr.exe.config
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.exe
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.pdb
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\bin\Debug\cnvrtr.exe
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\bin\Debug\cnvrtr.pdb
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csprojResolveAssemblyReference.cache
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\MainWindow.g.cs
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\App.g.cs
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.cache
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.lref
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\MainWindow.baml
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.g.resources
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.Properties.Resources.resources
+D:\БГУИР\2 курс 1 семестр\ЯП\Работы\Курсовая работа\№1\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\bin\Debug\cnvrtr.exe.config
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.exe
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.pdb
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\MainWindow.g.cs
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\App.g.cs
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.cache
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.lref
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\bin\Debug\cnvrtr.exe
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\bin\Debug\cnvrtr.pdb
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\MainWindow.baml
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.g.resources
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.Properties.Resources.resources
+C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csproj.GenerateResource.Cache

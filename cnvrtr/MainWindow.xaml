@@ -1,0 +1,38 @@
+﻿<Window x:Class="cnvrtr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cnvrtr"
+        mc:Ignorable="d"
+        Title="My converter" Height="350" Width="525"
+        ResizeMode="CanMinimize">
+    <Grid x:Name="Progress">
+        <ListView x:Name="fileList" Height="267" Width="275"  VerticalAlignment="Top" Margin="15,43,227,0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Extension" DisplayMemberBinding="{Binding Extension}"/>
+                    <GridViewColumn Header="Dest" DisplayMemberBinding="{Binding Dest}"/>
+                    <GridViewColumn Header="Data" DisplayMemberBinding="{Binding Data}" Width="0"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="cnvrtBtn" Content="Convert!" HorizontalAlignment="Left" Height="28" Margin="308,252,0,0" VerticalAlignment="Top" Width="201" Click="cnvrtBtn_Click"/>
+        <Button x:Name="btnAdd" Content="Load files" Height="28" Margin="298,43,0,0" VerticalAlignment="Top" Width="200" Click="btnAdd_Click"/>
+        <ComboBox x:Name="cbbFrm" Height="22" Margin="298,76,0,0" VerticalAlignment="Top" Width="200" SelectedIndex="0">
+            <ComboBoxItem Content=".bmp"/>
+            <ComboBoxItem Content=".jpg"/>
+            <ComboBoxItem Content=".png"/>
+            <ComboBoxItem Content=".tiff"/>
+            <ComboBoxItem Content=".gif"/>
+            <ComboBoxItem Content=".ico"/>
+            <ComboBoxItem Content=".wmf"/>
+        </ComboBox>
+        <TextBox x:Name="NDest" Height="22" Margin="15,10,40,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" IsReadOnly="True"/>
+        <Button x:Name="btnChDst" Content="Dest" Height="22" Margin="467,10,0,0" VerticalAlignment="Top" Width="31" Click="btnChDst_Click"/>
+        <Button x:Name="btnDel" Content="Delete" HorizontalAlignment="Left" Height="22" Margin="308,103,0,0" VerticalAlignment="Top" Width="52" Click="btnDel_Click"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Height="22" Margin="365,103,0,0" VerticalAlignment="Top" Width="52" Click="btnClear_Click"/>
+        <ProgressBar HorizontalAlignment="Left" Height="25" Margin="308,285,0,0" VerticalAlignment="Top" Width="200"/>
+    </Grid>
+</Window>
