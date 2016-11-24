@@ -8,7 +8,7 @@
         Title="My converter" Height="350" Width="525"
         ResizeMode="CanMinimize">
     <Grid x:Name="Progress">
-        <ListView x:Name="fileList" Height="267" Width="275"  VerticalAlignment="Top" Margin="15,43,227,0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <ListView x:Name="fileList" Height="267"  VerticalAlignment="Top" Margin="16,43,226,0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
@@ -33,6 +33,6 @@
         <Button x:Name="btnChDst" Content="Dest" Height="22" Margin="467,10,0,0" VerticalAlignment="Top" Width="31" Click="btnChDst_Click"/>
         <Button x:Name="btnDel" Content="Delete" HorizontalAlignment="Left" Height="22" Margin="308,103,0,0" VerticalAlignment="Top" Width="52" Click="btnDel_Click"/>
         <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Height="22" Margin="365,103,0,0" VerticalAlignment="Top" Width="52" Click="btnClear_Click"/>
-        <ProgressBar HorizontalAlignment="Left" Height="25" Margin="308,285,0,0" VerticalAlignment="Top" Width="200"/>
+        <ProgressBar x:Name="pbProgress" HorizontalAlignment="Left" Value="0" Minimum="0" Height="25" Margin="308,285,0,0" VerticalAlignment="Top" Width="200"/>
     </Grid>
 </Window>

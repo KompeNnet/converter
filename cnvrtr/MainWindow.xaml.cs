@@ -79,81 +79,41 @@ namespace cnvrtr
             }
         }
 
-        private void main_convert()
+        private void main_convert(string Data, string Name, int extID)
         {
-
+            Converter conv = new Converter();
+            switch (extID)
+            {
+                case 0: conv.convertToBMP(Data, Name);
+                    break;
+                case 1: conv.convertToJPG(Data, Name);
+                    break;
+                case 2: conv.convertToPNG(Data, Name);
+                    break;
+                case 3: conv.convertToTIFF(Data, Name);
+                    break;
+                case 4: conv.convertToGIF(Data, Name);
+                    break;
+                case 5: conv.convertToICO(Data, Name);
+                    break;
+                case 6: conv.convertToWMF(Data, Name);
+                    break;
+            }
         }
 
         private void cnvrtBtn_Click(object sender, RoutedEventArgs e)
         {
-            Converter conv = new Converter();
-            switch (cbbFrm.SelectedIndex)
+            int ExtensionID = cbbFrm.SelectedIndex;
+//            pbProgress.Maximum = fileList.Items.Count;
+            for (int c = 0; c < fileList.Items.Count; c++)
             {
-                case 0:
-                    {           
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToBMP(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
-                case 1:
-                    {
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToJPG(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
-                case 2:
-                    {
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToPNG(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
-                case 3:
-                    {
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToTIFF(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
-                case 4:
-                    {
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToGIF(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
-                case 5:
-                    {
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToICO(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
-                case 6:
-                    {
-                        for (int c = 0; c < fileList.Items.Count; c++)
-                        {
-                            MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
-                            conv.convertToWMF(Elem.Data, Elem.Name);
-                        }
-                    }
-                    break;
+                MyItem Elem = (MyItem)fileList.Items.GetItemAt(c);
+                main_convert(Elem.Data, NDest.Text + "\\" + Elem.Name, ExtensionID);
+//                pbProgress.Value++;
             }
-            System.Windows.MessageBox.Show("Success!");
+            MessageBoxResult res = System.Windows.MessageBox.Show("Success!", "Files converted successfully. Clean main file list?", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (res == MessageBoxResult.Yes)
+                fileList.Items.Clear();
         }
 
         private void btnDel_Click(object sender, RoutedEventArgs e)
