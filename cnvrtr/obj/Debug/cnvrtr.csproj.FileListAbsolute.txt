@@ -40,3 +40,16 @@ C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\MainWindow.baml
 C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.g.resources
 C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.Properties.Resources.resources
 C:\Users\PC\Desktop\cnvrtr\cnvrtr\obj\Debug\cnvrtr.csproj.GenerateResource.Cache
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\bin\Debug\cnvrtr.exe.config
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\bin\Debug\cnvrtr.exe
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\bin\Debug\cnvrtr.pdb
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\MainWindow.g.cs
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\App.g.cs
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.cache
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr_MarkupCompile.lref
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\MainWindow.baml
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr.g.resources
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr.Properties.Resources.resources
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr.csproj.GenerateResource.Cache
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr.exe
+C:\Users\Krompy\Documents\GitHub\converter\cnvrtr\obj\Debug\cnvrtr.pdb
